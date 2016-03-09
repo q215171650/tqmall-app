@@ -1,0 +1,57 @@
+body,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,fieldset,legend,input,select,textarea,button,th,td{margin:0;padding:0;}
+/*h1,h2,h3,h4,h5,h6{font-size:100%;}*/
+ul,dl,ol{list-style:none;}
+img,fieldset,input[type="submit"]{border:0 none;}
+img{display:inline-block;overflow:hidden;vertical-align:top;}
+em{font-style:normal;}
+strong{font-weight:normal;}
+table{border-collapse:collapse;border-spacing:0;}
+button,input[type="button"]{cursor:pointer;border:0 none;}
+menu{margin:0;padding:0;}
+body{-webkit-user-select:none;-webkit-text-size-adjust:none!important;font-family:'宋体';}
+input[type="number"]{-webkit-user-select:text;}
+a,button,input,img{-webkit-touch-callout:none;}
+input,select,textarea{outline:none;}
+html,body{height:100%;}
+a{text-decoration:none;}
+.clearfix {zoom: 1;_height: 1px;}
+.clearfix:after {content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+#wrapper{min-height:100%;font-size:0.24rem;color:#343434;}
+a{color: #343434;}
+[v-cloak]{display:none;}
+
+/*元素下边框线*/
+.b-bd{border-bottom:1px solid #dcdcdc;}
+/*元素左边框线*/
+.l-bd{border-left:1px solid #dcdcdc;}
+/*白色背景*/
+.bg-white{background: #fff;}
+/*全局链接颜色*/
+.link{color: #09a9e3;text-decoration: underline;}
+/*字体颜色1*/
+.color1{color:#09a9e3;}
+/*左浮动*/
+.fl{float:left;}
+/*右浮动*/
+.fr{float:right;}
+
+html * { /*链接虚线*/outline:none;/*触摸高亮*/-webkit-tap-highlight-color: rgba(255, 255, 255, 0);}
+body {/*字体平滑*/ -webkit-font-smoothing:antialiased;}
+
+/*弹窗背景*/
+.dg{width:100%;height:100%;position:absolute;left:0;top:0;z-index:99;}
+.dg-bg{background:#000;opacity:.8;position:absolute;left:0;top:0;width:100%;height:100%;z-index:100;}
+.dg-inner{position:relative;z-index:101;width: 100%;height:100%;}
+
+
+/*ios下的返回按钮*/
+#goback{width:40px;height:40px;line-height:40px;background:#fff;text-align:center;box-shadow:0 0 6px #ccc;border-radius:50%;position:absolute;z-index:98;color:#999;left:10px;top:10px;}
+.animated.infinite {-webkit-animation-iteration-count: 1; animation-iteration-count: 1; }
+.animated {-webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
+.bounceInDown {-webkit-animation-name: bounceInDown; animation-name: bounceInDown; }
+@-webkit-keyframes bounceInDown {0% {opacity: 0; -webkit-transform: translateY(-2000px); transform: translateY(-2000px); } 60% {opacity: 1; -webkit-transform: translateY(30px); transform: translateY(30px); } 80% {-webkit-transform: translateY(-10px); transform: translateY(-10px); } 100% {-webkit-transform: translateY(0); transform: translateY(0); } }
+
+@keyframes bounceInDown {0% {opacity: 0; -webkit-transform: translateY(-2000px); -ms-transform: translateY(-2000px); transform: translateY(-2000px); } 60% {opacity: 1; -webkit-transform: translateY(30px); -ms-transform: translateY(30px); transform: translateY(30px); } 80% {-webkit-transform: translateY(-10px); -ms-transform: translateY(-10px); transform: translateY(-10px); } 100% {-webkit-transform: translateY(0); -ms-transform: translateY(0); transform: translateY(0); } }
+
+
